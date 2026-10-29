@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Dev Server (Full-Stack)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "server.ts"],
+      "console": "integratedTerminal",
+      "restart": true,
+      "env": {
+        "PORT": "3000"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Unit Tests",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "tsx",
+        "--test",
+        "src/utils/propertyLogic.test.ts",
+        "src/utils/searchLogic.test.ts"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

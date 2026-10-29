@@ -1,0 +1,6 @@
+{
+  "name": "Davinder Singh Real Estate - AI Property Video Studio",
+  "description": "Davinder Singh Real Estate AI Property Video Studio. Transform property photos and details into short, ready-to-share promotional videos with AI scriptwriting, voiceover narration, cinematic Ken Burns transitions, and MP4 export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
